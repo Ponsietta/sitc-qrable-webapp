@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Generation Time: Aug 08, 2014 at 10:38 PM
+-- Generation Time: Aug 09, 2014 at 11:46 PM
 -- Server version: 5.6.16
 -- PHP Version: 5.5.11
 
@@ -35,6 +35,16 @@ CREATE TABLE IF NOT EXISTS `codes` (
 -- --------------------------------------------------------
 
 --
+-- Table structure for table `current_code`
+--
+
+CREATE TABLE IF NOT EXISTS `current_code` (
+  `code` varchar(30) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+-- --------------------------------------------------------
+
+--
 -- Table structure for table `stand`
 --
 
@@ -48,3 +58,4 @@ CREATE TABLE IF NOT EXISTS `stand` (
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+
