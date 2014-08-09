@@ -26,7 +26,7 @@
 	function response(data) {
 		var resObj = JSON.parse(data);
 		if (resObj.found) {
-
+			$('[name="qr"]').modal('show');
 		} else {
 
 		}
